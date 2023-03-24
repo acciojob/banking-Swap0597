@@ -8,6 +8,15 @@ public class CurrentAccount extends BankAccount{
         super(name, balance, 5000);
         this.tradeLicenseId = tradeLicenseId;
     }
+
+    public String getTradeLicenseId() {
+        return tradeLicenseId;
+    }
+
+    public void setTradeLicenseId(String tradeLicenseId) {
+        this.tradeLicenseId = tradeLicenseId;
+    }
+
     public CurrentAccount(String name, double balance, double minBalance){
         super(name, balance, minBalance);
 
